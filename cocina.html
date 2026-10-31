@@ -225,17 +225,18 @@ h1 { margin: 0; font-size: 24px; color: var(--text); }
    Si lo dejas en null, la cocina funciona en "modo local" (solo mismo navegador).
    ===================================================================== */
 window.YP_CONFIG = {
-  firebase: null
-  /* Ejemplo:
   firebase: {
-    apiKey: "AIza...",
-    authDomain: "mi-proyecto.firebaseapp.com",
-    databaseURL: "https://mi-proyecto-default-rtdb.firebaseio.com",
-    projectId: "mi-proyecto",
-    appId: "1:123456789:web:abcdef"
-  }
-  */
-};
+  apiKey: "AIzaSyCNrCk1QHfBqNxmXBhCppEY-iym7XpL4lo",
+  authDomain: "cocina1-acdbd.firebaseapp.com",
+  databaseURL: "https://cocina1-acdbd-default-rtdb.firebaseio.com",
+  projectId: "cocina1-acdbd",
+  storageBucket: "cocina1-acdbd.firebasestorage.app",
+  messagingSenderId: "687820072990",
+  appId: "1:687820072990:web:2ee0ef4772e08437a8e60f"
+}
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);};
 </script>
 <script>
 (function () {
